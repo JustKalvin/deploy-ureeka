@@ -12,7 +12,7 @@ import Profile from "./pages/Profile"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/deployed-ureeka/">
       <Routes>
         <Route path = "/" element={<Home />} />
         <Route path = "/Registrasi" element={<Registrasi />} />
